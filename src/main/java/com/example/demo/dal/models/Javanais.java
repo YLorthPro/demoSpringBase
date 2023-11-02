@@ -13,7 +13,7 @@ public class Javanais {
     private Long id;
     
     @Column(nullable = false, unique = true)
-    String nom;
+    private String nom;
     
-    int age;
+    private int age;
 }
